@@ -2,23 +2,31 @@
 
 这是一个可以在新 Mac 上独立运行的 Codex 项目。它包含 Instagram、Facebook、LinkedIn 三套相互隔离的内容生产与发布工作流，不包含原作者的账号、Cookie、历史帖子、生成图片或发布记录。
 
+## 给老师的项目地址
+
+```text
+https://github.com/canlongtan-tan/textile-social-automation-starter
+```
+
+老师应复制这个 GitHub 仓库，而不是接收单独的 ZIP 文件。完整操作见 [使用教程.md](使用教程.md)。
+
 ## 最快开始
 
-1. 在 GitHub 页面点击 `Code` → `Download ZIP`。
-2. 解压后打开“终端”，进入解压目录。
-3. 运行：
+1. 打开终端并克隆项目：
 
    ```bash
+   git clone https://github.com/canlongtan-tan/textile-social-automation-starter.git
+   cd textile-social-automation-starter
    python3 setup_teacher.py
    ```
 
-4. 脚本会在桌面创建 `纺织社媒自动化`，并从 Hysure 官方网站下载第01批20个原素材。
-5. 用 Codex 打开桌面的 `纺织社媒自动化` 文件夹。
-6. 在 Safari 分别登录 Instagram、Facebook 和 LinkedIn。
-7. 先输入：`检查三平台环境，不发布`。
-8. 检查通过后输入：`开始三平台社媒自动化测试`。
+2. 脚本会在桌面创建 `纺织社媒自动化`，并从 Hysure 官方网站下载第01批20个原素材。
+3. 用 Codex 打开桌面的 `纺织社媒自动化` 文件夹。
+4. 在 Safari 分别登录 Instagram、Facebook 和 LinkedIn。
+5. 先输入：`检查三平台环境，不发布`。
+6. 检查通过后输入：`开始三平台社媒自动化测试`。
 
-完整步骤见 [老师快速测试.md](老师快速测试.md)。
+简版清单见 [老师快速测试.md](老师快速测试.md)，完整教程见 [使用教程.md](使用教程.md)。
 
 ## 工作流边界
 
@@ -57,4 +65,3 @@ python3 社媒自动化V4/scripts/download_materials.py --batch 1 --batch-size 2
 - 可访问 Hysure、Instagram、Facebook、LinkedIn 的网络
 
 本项目不包含任何社媒平台官方 API 密钥，网页结构变化、验证码、账号权限或地区限制都可能让自动化停下并要求人工处理。
-
