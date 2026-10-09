@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 本机账号与运行状态永远不上传
+社媒自动化V4/config.local.json
+社媒自动化V4/outputs/*
+!社媒自动化V4/outputs/.gitkeep
+社媒自动化V4/publish-ready/*
+!社媒自动化V4/publish-ready/.gitkeep
+社媒自动化V4/state/*
+!社媒自动化V4/state/.gitkeep
+素材库/*
+!素材库/.gitkeep
+

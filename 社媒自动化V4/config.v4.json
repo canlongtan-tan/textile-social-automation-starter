@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "timezone": "Asia/Shanghai",
+  "browser": "safari",
+  "approval_gate": "final_publish_only",
+  "source_root": "素材库",
+  "output_root": "社媒自动化V4/outputs",
+  "publish_ready_root": "社媒自动化V4/publish-ready",
+  "state_file": "社媒自动化V4/state.v4.json",
+  "research_reviewed_at": "2026-10-09",
+  "brand": {
+    "name": "Hysure",
+    "website": "https://www.hysuretextile.com/",
+    "allowed_facts": [
+      "Textile manufacturer",
+      "OEM and ODM inquiries are welcome"
+    ]
+  },
+  "platforms": {
+    "instagram": {
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": "4:5",
+      "expected_account": "",
+      "caption_max_chars": 600,
+      "hashtag_max": 5,
+      "publish_command": "发布 Instagram V4"
+    },
+    "facebook": {
+      "width": 1200,
+      "height": 1500,
+      "aspect_ratio": "4:5",
+      "expected_account": "",
+      "caption_max_chars": 900,
+      "hashtag_max": 3,
+      "publish_command": "发布 Facebook V4"
+    },
+    "linkedin": {
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": "4:5",
+      "expected_account": "",
+      "caption_max_chars": 1300,
+      "hashtag_max": 5,
+      "publish_command": "发布 LinkedIn V4"
+    }
+  }
+}
+
